@@ -31,7 +31,7 @@
 
 > School Identification Number: 35075
 
-[![A](https://img.shields.io/badge/A-grey?style=for-the-badge)](https://github.com/Belmont-Hill-Makerspace/35075A) [![B](https://img.shields.io/badge/B-grey?style=for-the-badge)](https://github.com/Belmont-Hill-Makerspace/35075B) [![C](https://img.shields.io/badge/C-grey?style=for-the-badge)](https://github.com/Belmont-Hill-Makerspace/35075C) [![X](https://img.shields.io/badge/X-grey?style=for-the-badge)](https://github.com/Belmont-Hill-Makerspace/35075X)
+[![A](https://img.shields.io/badge/A-grey?style=for-the-badge)](https://github.com/Belmont-Hill-Makerspace/35075A) [![C](https://img.shields.io/badge/C-grey?style=for-the-badge)](https://github.com/Belmont-Hill-Makerspace/35075C_2024-2025) [![X](https://img.shields.io/badge/X-grey?style=for-the-badge)](https://github.com/Belmont-Hill-Makerspace/35075X_Main_24-25)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
