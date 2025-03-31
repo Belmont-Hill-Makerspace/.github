@@ -10,7 +10,7 @@
 
 <!-- CALL TO ACTIONS -->
 
-[![Homepage](https://img.shields.io/badge/🌐%20Homepage-grey?style=for-the-badge)](https://www.belmonthill.org/academics/makerspace) [![Schedule](https://img.shields.io/badge/📅%20Schedule-grey?style=for-the-badge)](https://docs.google.com/spreadsheets/d/1Smz0CalpF-jE7a2SaGa_jDIG1iLWu79YZ74349uV4Gw/edit?gid=137642311#gid=137642311) [![Tryouts](https://img.shields.io/badge/📝%20Tryouts-grey?style=for-the-badge)](https://docs.google.com/document/d/1SjdNTTJCPgrgd9IDQ0ClZmTv1YIK-AfD-5bnmVDkVfw/edit?tab=t.0#heading=h.9a4g126o8pnp) [![Email](https://img.shields.io/badge/📧%20Email-grey?style=for-the-badge)](makerspace@belmonthill.org)
+[![Homepage](https://img.shields.io/badge/🌐%20Homepage-grey?style=for-the-badge)](https://www.belmonthill.org/academics/makerspace/robotics) [![Schedule](https://img.shields.io/badge/📅%20Schedule-grey?style=for-the-badge)](https://docs.google.com/spreadsheets/d/1Smz0CalpF-jE7a2SaGa_jDIG1iLWu79YZ74349uV4Gw/edit?gid=137642311#gid=137642311) [![Tryouts](https://img.shields.io/badge/📝%20Tryouts-grey?style=for-the-badge)](https://docs.google.com/document/d/1SjdNTTJCPgrgd9IDQ0ClZmTv1YIK-AfD-5bnmVDkVfw/edit?tab=t.0#heading=h.9a4g126o8pnp) [![Instagram](https://img.shields.io/badge/💬%20Instagram-grey?style=for-the-badge)](https://www.instagram.com/belmont_hill_robotics/?hl=en)
 
 <!-- TABLE OF CONTENTS -->
 <details>
@@ -31,7 +31,11 @@
 
 > School Identification Number: 35075
 
+### Repositories 
 [![A](https://img.shields.io/badge/A-grey?style=for-the-badge)](https://github.com/Belmont-Hill-Makerspace/35075A) [![C](https://img.shields.io/badge/C-grey?style=for-the-badge)](https://github.com/Belmont-Hill-Makerspace/35075C_2024-2025) [![X](https://img.shields.io/badge/X-grey?style=for-the-badge)](https://github.com/Belmont-Hill-Makerspace/35075X_Main_24-25)
+
+### Results
+[![A](https://img.shields.io/badge/A-grey?style=for-the-badge)](https://www.robotevents.com/teams/V5RC/35075A) [![B](https://img.shields.io/badge/B-grey?style=for-the-badge)](https://www.robotevents.com/teams/V5RC/35075B) [![C](https://img.shields.io/badge/C-grey?style=for-the-badge)](https://www.robotevents.com/teams/V5RC/35075C) [![X](https://img.shields.io/badge/X-grey?style=for-the-badge)](https://www.robotevents.com/teams/V5RC/35075X)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -126,10 +130,14 @@ docs(README): add reference to new LemLib version
 
 ## Contact
 
-- [Mr. Ziff](ziff@belmonthill.org)
-- [Dr. Courtney](courtneym@belmonthill.org)
-- [Mr. Montanaro](montanaromi@belmonthill.org)
-- [Makerspace](makerspace@belmonthill.org)
+- *Mr. Ziff* 
+ziff@belmonthill.org
+- *Dr. Courtney* 
+courtneym@belmonthill.org
+- *Mr. Montanaro* 
+montanaromi@belmonthill.org
+- *Makerspace* 
+makerspace@belmonthill.org
 
 
 <!-- ACKNOWLEDGMENTS -->
@@ -146,7 +154,6 @@ docs(README): add reference to new LemLib version
 - [Vex Robotics Competition](https://www.vexrobotics.com/competition?srsltid=AfmBOorQ0W4qS9sFXGZuwn9fIrg5r_hfeYErFh6L5dMTq7sek5CZSAd4)
 - [PROS by Purdue](https://pros.cs.purdue.edu/)
 - [LemLib Documentation](https://lemlib.readthedocs.io/en/stable/)
-- [Auton Skills Example Video](https://www.youtube.com/watch?v=tc2QtHCExt0)
 - [Interview Examples](https://kb.vex.com/hc/en-us/articles/8780653442964-Get-Started-Engineering)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
