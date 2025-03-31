@@ -2,7 +2,7 @@
 
 <!-- PROJECT HEADER -->
 
-<img src="./logo.png"/>
+<img src="../resources/logo.png"/>
 
 # 👋 Welcome to the Bolles Makerspace
 
@@ -45,7 +45,7 @@
 ### Readings
 - [Student Centered Policy](https://v5rc-kb.recf.org/hc/en-us/articles/9654578622487-Student-Centered-Policy)
 - [Driving Course Training](https://v5rc-kb.recf.org/hc/en-us/articles/9652732380055-VEX-V5-Robotics-Competition-Drive-Team-Training-Course-2024-25-High-Stakes)
-- [Notebook Rubric](./notebook-rubric.pdf)
+- [Notebook Rubric](../resources/notebook-rubric.pdf)
 - [Engineering Design Process](https://v5rc-kb.recf.org/hc/en-us/articles/9628278280215-Engineering-Design-Process)
 - [PID Controller Introduction](https://drive.google.com/file/d/166zqVQZYmXL9I0Y7ppLrOE1ZkAhLqQ1O/view)
 
