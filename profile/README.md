@@ -2,11 +2,11 @@
 
 <!-- PROJECT HEADER -->
 
-<img src="../resources/logo.png"/>
+![Belmont Hill Robotics Logo](../resources/logo.png)
 
 # 👋 Welcome to the Bolles Makerspace
 
-> Home of the code, documentation, and projects for Team 35075
+> Home of the code, documentation, and projects for Belmont Hill Robotics
 
 <!-- CALL TO ACTIONS -->
 
@@ -54,14 +54,14 @@
 - [PID Controller Introduction](https://drive.google.com/file/d/166zqVQZYmXL9I0Y7ppLrOE1ZkAhLqQ1O/view)
 
 
-### Installation
+### Installations
 
-The development of these project requires the use of some key tools that help reduce the pain points of robotics. Ensure you have the following:
+> The development of these projects requires the use of some key tools that help reduce the pain points of robotics.
 
 - [git](https://git-scm.com/): a version control system for tracking code changes and team collaboration
 - [GitHub Desktop](https://desktop.github.com/download/): interact with Team 35075 remote code repositories
 - [C++ Compiler](https://releases.llvm.org/download.html): a toolchain for compiling and running C++ programs, typically pre-installed on most systems
-- [Visual Studio Code](https://code.visualstudio.com/): integrated development environment (IDE)
+- [Visual Studio Code](https://code.visualstudio.com/): integrated development environment (IDE) to make coding all you have to think about
 - [VEX Extension](https://marketplace.visualstudio.com/items?itemName=VEXRobotics.vexcode): an extension for managing and developing VEX robotics projects efficiently
 - [PROS Extension](https://marketplace.visualstudio.com/items?itemName=sigbots.pros): extension for Visual Studio Code to streamline VEX using the PROS framework
 
@@ -71,8 +71,7 @@ The development of these project requires the use of some key tools that help re
 
 ## Usage
 
-> Step-by-step guide to update code, prepare the robot, and deploy logic for seamless operation.
-
+> Step-by-step guide to update code, prepare the robot, and deploy logic for smooth operations.
 
 1. Code update: pull any potential changes from the repository to your local machine.
 2. Robot setup: check and fill air canisters, ensure battery is charged, and power on the robot.
@@ -85,17 +84,17 @@ The development of these project requires the use of some key tools that help re
 
 ## Troubleshooting
 
-> Step-by-step guide to identify and resolve common issues encountered during development and deployment.
+> Guide to identify and resolve common issues encountered during development and deployment.
 
-1. **Missing Files**: Verify that the repository was cloned using GitHub Desktop. If files are missing, re-clone the repository to ensure all dependencies are included.
-2. **Unsupported Versions**: Check that the latest versions of PROS, LemLib, and C++ are installed. Update any outdated tools to maintain compatibility with the codebase.
-3. **Merge Conflicts**: Before starting work, confirm that no other team member is editing the same file. If conflicts occur, use GitHub Desktop to compare changes and resolve them by selecting the appropriate code.
-4. **Build Errors**: If the build and upload process fails when connected to the controller, try the following steps:
-  - Ensure the Micro-USB cable is securely connected to both the controller and your computer.
-  - Restart the controller and VEX Robot Brain, then attempt the upload again.
-  - Verify that the correct COM port is selected in the PROS settings.
-  - If the issue persists, disconnect and reconnect the cable, then retry the upload process.
-  - Repeat the upload process a few times, as intermittent connectivity issues may resolve after multiple attempts.
+* **Missing Files**: Verify that the repository was cloned using GitHub Desktop. If files are missing, re-clone the repository to ensure all dependencies are included.
+* **Unsupported Versions**: Check that the latest versions of PROS, LemLib, and C++ are installed. Update any outdated tools to maintain compatibility with the codebase.
+* **Merge Conflicts**: Before starting work, confirm that no other team member is editing the same file. If conflicts occur, use GitHub Desktop to compare changes and resolve them by selecting the appropriate code.
+* **Build Errors**: If the build and upload process fails when connected to the controller, try the following steps:
+  * Ensure the Micro-USB cable is securely connected to both the controller and your computer.
+  * Restart the controller and VEX Robot Brain, then attempt the upload again.
+  * Verify that the correct COM port is selected in the PROS settings.
+  * If the issue persists, disconnect and reconnect the cable, then retry the upload process.
+  * Repeat the upload process a few times, as intermittent connectivity issues may resolve after multiple attempts.
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- CONVENTIONS -->
@@ -104,7 +103,18 @@ The development of these project requires the use of some key tools that help re
 
 > Ensure consistent and clear communication within the team.
 
-- [Branches](https://www.geeksforgeeks.org/how-to-naming-conventions-for-git-branches/): Using branch prefixes to highlight main objective followed by a brief description of the task or feature. If referencing a specific issue number, that would be appended between the prefix and description. Examples included below:
+- [Version Control](https://git-scm.com/book/ms/v2/Getting-Started-About-Version-Control): Tracking releases through consistent commit messages and branching strategies ensures a clear development history, simplifies collaboration, and enables efficient debugging. This is key to maintaining a stable working version of the robot's control system. *Our team uses the [**git**](https://git-scm.com/) version control system with **GitHub** as the provider.* Example usage of the git CLI tool provided below in order of usage frequency:
+
+```bash
+git add <FILE_NAME>                    # update to staged status
+git commit -m "description of change"  # update to committed status
+git status                             # show the state of local project files and the branch you are working on 
+git pull                               # update local code with remote branch
+git push                               # update remote branch with local code
+```
+> **NOTE**: There are four 'states' that the changes must go through locally to be pushed to the remote repo, which are unstaged, staged, committed, and then pushed. 
+
+- [Branches](https://www.geeksforgeeks.org/how-to-naming-conventions-for-git-branches/): Using branch prefixes to highlight main objective followed by a brief description of the task or feature. If referencing a specific issue number, that would be appended between the prefix and description. Branch creation can be done by typing `git checkout -b feature/no-ref/example-branch`. The `no-ref` indicates that the branch is not linked to a specific [issue](https://docs.github.com/en/issues/tracking-your-work-with-issues/about-issues) and may be omitted if unnecessary Examples included below:
 
 ```
 feature/add-PID-controller
@@ -116,7 +126,7 @@ experiment/odometry
 fix/2/adjust-for-drag
 ```
 
-- [Commits](https://www.conventionalcommits.org/en/v1.0.0/): Creating an explicit commit history helps other team members understand the changes made and the purpose behind them. Use the following format for commits: <type>(<scope>): <description>. Examples included below with the use and omission of the optional scope variable:
+- [Commits](https://www.conventionalcommits.org/en/v1.0.0/): Creating an explicit commit history helps other team members understand the changes made and the purpose behind them. Use the following to create a commit: `git commit -m '<type>(<scope>): <description>'`. Put simply, `<type>` is what you did in one word, `<scope>` is where you made the changes, and `<description>` is why you did it. Examples included below with the use and omission of the optional `<scope>` parameter:
 
 ```
 feat(auton): add initial body of PID controller
