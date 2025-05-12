@@ -166,5 +166,6 @@ makerspace@belmonthill.org
 - [LemLib Documentation](https://lemlib.readthedocs.io/en/stable/)
 - [Interview Examples](https://kb.vex.com/hc/en-us/articles/8780653442964-Get-Started-Engineering)
 - [Git Walkthrough](https://docs.google.com/document/d/19ks0UKsG-ARE1dvPBA0KZH7x2ydUUlYKGbLfuoC4uxM/edit?tab=t.0)
+- [Scheduling](https://calendly.com/bhsmakerspace/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
