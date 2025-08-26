@@ -144,8 +144,6 @@ docs(README): add reference to new LemLib version
 ziff@belmonthill.org
 - *Dr. Courtney* 
 courtneym@belmonthill.org
-- *Mr. Montanaro* 
-montanaromi@belmonthill.org
 - *Makerspace* 
 makerspace@belmonthill.org
 
